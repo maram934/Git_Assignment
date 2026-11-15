@@ -1,0 +1,97 @@
+GIT COMMANDS USED IN THE ASSIGNMENT
+
+1. git --version
+   Checks the installed Git version.
+
+2. git init
+   Initializes a new local Git repository.
+
+3. git branch -M main
+   Renames the default branch to main.
+
+4. git config --global user.name "Your Name"
+   Sets the name used for Git commits.
+
+5. git config --global user.email "Your Email"
+   Sets the email address used for Git commits.
+
+6. git status
+   Displays the current repository status and file changes.
+
+7. git add index.html about.html
+   Adds the HTML files to the staging area.
+
+8. git commit -m "Initial commit: Add HTML files"
+   Creates the first commit.
+
+9. git log --oneline
+   Displays the commit history in a short format.
+
+10. git add index.html
+    Stages changes made to index.html.
+
+11. git commit -m "Update home page content"
+    Saves the updated home page as a new commit.
+
+12. git branch feature
+    Creates a new branch named feature.
+
+13. git checkout feature
+    Switches to the feature branch.
+
+14. git branch
+    Lists all available branches.
+
+15. git add about.html
+    Stages changes made to about.html.
+
+16. git commit -m "Add feature branch update to about page"
+    Commits the changes made in the feature branch.
+
+17. git checkout main
+    Switches back to the main branch.
+
+18. git merge feature
+    Merges the feature branch into the main branch.
+
+19. git log --oneline --graph --all
+    Displays commit history with branch relationships.
+
+20. git add .gitignore
+    Stages the .gitignore file.
+
+21. git commit -m "Add gitignore for log files and temp folder"
+    Commits the .gitignore configuration.
+
+22. git add index.html
+    Stages the additional HTML changes.
+
+23. git commit -m "Add extra paragraph for undo demonstration"
+    Creates an additional commit for the undo demonstration.
+
+24. git restore --staged index.html
+    Removes index.html from the staging area.
+
+25. git restore index.html
+    Restores index.html to the latest committed version.
+
+26. git revert --no-edit HEAD
+    Reverses the latest commit by creating a new revert commit.
+
+27. git add index.html about.html
+    Stages the corrected HTML files.
+
+28. git commit -m "Fix HTML file formatting"
+    Commits the corrected HTML files.
+
+29. git remote -v
+    Displays the configured remote repositories.
+
+30. git remote set-url origin https://github.com/maram934/Git_Assignment.git
+    Sets the GitHub repository as the origin remote.
+
+31. git push -u origin main
+    Pushes the main branch to GitHub and sets its upstream.
+
+32. git push origin feature
+    Pushes the feature branch to GitHub.
